@@ -1,0 +1,9 @@
+flask==3.0.2
+flask-cors==4.0.0
+torch==2.2.1
+torchvision==0.17.1
+torchxrayvision==0.0.32
+pillow==10.2.0
+numpy==1.26.4
+python-dotenv==1.0.1
+gunicorn==21.2.0
