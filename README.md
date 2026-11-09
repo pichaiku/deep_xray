@@ -2,6 +2,26 @@
 
 DeepXRay is a Flutter application for analyzing chest X-ray images. The mobile app sends an image to a Flask API, which runs a chest X-ray classification model and returns the three most likely findings.
 
+## Screens
+
+### Home
+
+The home screen shows the DeepXRay dashboard and lets users select an X-ray image from the gallery or take a photo.
+
+<img src="docs/screenshots/home.png" alt="DeepXRay home screen" width="560" />
+
+### Capture Image
+
+Users can capture an X-ray image with the camera or choose one from the gallery. The selected image is previewed before analysis.
+
+<img src="docs/screenshots/capture_image.png" alt="DeepXRay capture image screen" width="560" />
+
+### Result
+
+After analysis, the app displays the X-ray image and the three most likely findings, with confidence scores and descriptions.
+
+<img src="docs/screenshots/result.png" alt="DeepXRay analysis result screen" width="560" />
+
 ## Features
 
 - Select an X-ray image and submit it for analysis
